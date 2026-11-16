@@ -1,6 +1,6 @@
 package org.example.Dominio;
 
-public abstract class Usuario {
+public class Administrador {
 
     private String cedula;
     private String nombre;
@@ -8,7 +8,7 @@ public abstract class Usuario {
     private String contrasena;
     private String telefono;
 
-    public Usuario(String cedula, String nombre, String correo, String contrasena, String telefono) {
+    public Administrador(String cedula, String nombre, String correo, String contrasena, String telefono) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.correo = correo;
@@ -16,8 +16,6 @@ public abstract class Usuario {
         this.telefono = telefono;
     }
 
-
-    public
 
 
 
